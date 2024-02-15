@@ -1,0 +1,59 @@
+{
+  "directions": [
+    "Raise a cow on a farm",
+    "Feed the cow with grass and provide clean water daily",
+    "Milk the cow daily in a clean and sanitized environment",
+    "Store the milk in a clean container and refrigerate"
+  ],
+  "hours": {
+    "parallel": 0.25,
+    "serial": 730.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "cow",
+      "singular": "cow",
+      "store_cost": 2000.0,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1460.0,
+        "unit": "pounds"
+      },
+      "ingredient": "grass",
+      "singular": "grass",
+      "store_cost": 365.0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 7300.0,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "gallon"
+      },
+      "ingredient": "cow milk",
+      "singular": "cow milk",
+      "store_cost": 3.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "cow milk",
+  "recipe_plural": "cow milk",
+  "recipe_singular": "cow milk"
+}

@@ -1,0 +1,80 @@
+{
+  "directions": [
+    "In a large mixing bowl, combine corn, soybean meal, and wheat.",
+    "Add oyster shells and calcium carbonate to the mixture.",
+    "Stir the ingredients thoroughly to ensure they are well mixed.",
+    "Transfer the chicken feed into a clean, airtight container for storage.",
+    "Feed the chickens with the chicken feed as needed."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "corn",
+      "singular": "corn",
+      "store_cost": 0.05,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "soybean meal",
+      "singular": "soybean meal",
+      "store_cost": 0.1,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "wheat",
+      "singular": "wheat",
+      "store_cost": 0.05,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 50.0,
+        "unit": "grams"
+      },
+      "ingredient": "oyster shells",
+      "singular": "oyster shell",
+      "store_cost": 0.2,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 3.0,
+        "unit": "grams"
+      },
+      "ingredient": "calcium carbonate",
+      "singular": "calcium carbonate",
+      "store_cost": 0.05,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kg"
+      },
+      "ingredient": "chicken feed",
+      "singular": "chicken feed",
+      "store_cost": 1.0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "chicken feed",
+  "recipe_plural": "chicken feed",
+  "recipe_singular": "chicken feed"
+}

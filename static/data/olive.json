@@ -1,0 +1,63 @@
+{
+  "directions": [
+    "Plant the olive tree in well-draining soil and provide it with ample sunlight.",
+    "Water the olive tree regularly, making sure to keep the soil moist but not waterlogged.",
+    "Prune the tree to promote healthy growth and fruit production.",
+    "Wait for the tree to grow and produce olives. This can take several years.",
+    "Harvest the olives once they have ripened. This is usually done by handpicking the olives from the tree.",
+    "Brine the olives in a mixture of water and salt for several weeks to reduce their bitterness.",
+    "Rinse the olives and store them in a jar with olive oil and your choice of herbs and spices for added flavor, if desired.",
+    "Enjoy the olives as a snack or use them in various dishes and recipes."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 87660
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "olive tree",
+      "singular": "olive tree",
+      "store_cost": 20,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "olive",
+      "singular": "olive",
+      "store_cost": 0.05,
+      "type": "plant"
+    }
+  ],
+  "recipe": "olive",
+  "recipe_plural": "olives",
+  "recipe_singular": "olive"
+}

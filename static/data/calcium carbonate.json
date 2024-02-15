@@ -1,0 +1,51 @@
+{
+  "directions": [
+    "Heat the limestone in a kiln at high temperature (800-900\u00b0C) to convert it into quicklime.",
+    "Place the quicklime in a kiln and add the carbon dioxide gas to it.",
+    "The quicklime reacts with the carbon dioxide gas to produce calcium carbonate.",
+    "Allow the reaction to continue until the desired amount of calcium carbonate is formed.",
+    "Cool the calcium carbonate and store it in a suitable container.",
+    "Your calcium carbonate is ready to use!"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 6.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kilogram"
+      },
+      "ingredient": "limestone",
+      "singular": "limestone",
+      "store_cost": 5.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kilogram"
+      },
+      "ingredient": "carbon dioxide",
+      "singular": "carbon dioxide",
+      "store_cost": 10.0,
+      "type": "gas"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kilogram"
+      },
+      "ingredient": "calcium carbonate",
+      "singular": "calcium carbonate",
+      "store_cost": 15.0,
+      "type": "mineral"
+    }
+  ],
+  "recipe": "calcium carbonate",
+  "recipe_plural": "calcium carbonate",
+  "recipe_singular": "calcium carbonate"
+}

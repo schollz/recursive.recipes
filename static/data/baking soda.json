@@ -1,0 +1,59 @@
+{
+  "directions": [
+    "Combine sodium carbonate and carbon dioxide in a container.",
+    "Add water to the mixture and stir well.",
+    "Allow the mixture to dry and harden.",
+    "Grind the dried mixture into a fine powder to obtain baking soda."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "sodium carbonate",
+      "singular": "sodium carbonate",
+      "store_cost": 2.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 53.34,
+        "unit": "grams"
+      },
+      "ingredient": "carbon dioxide",
+      "singular": "carbon dioxide",
+      "store_cost": 0,
+      "type": "gas"
+    },
+    {
+      "amount": {
+        "count": 0.021,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "baking soda",
+      "singular": "baking soda",
+      "store_cost": 2.0,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "baking soda",
+  "recipe_plural": "baking soda",
+  "recipe_singular": "baking soda"
+}

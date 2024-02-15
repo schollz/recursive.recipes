@@ -1,0 +1,52 @@
+{
+  "directions": [
+    "Grind the corn kernels into a fine powder using a blender or food processor.",
+    "In a large bowl, combine the ground corn kernels with water to make a slurry.",
+    "Let the slurry sit for about 30 minutes to allow the starch to settle.",
+    "Carefully pour off the excess water from the slurry, leaving behind the starch sediment.",
+    "Spread the starch sediment onto a baking sheet and allow it to dry completely.",
+    "Once fully dried, break up any clumps and sift the cornstarch to achieve a smooth texture.",
+    "Store the cornstarch in an airtight container for future use."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 2.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 3.5,
+        "unit": "cups"
+      },
+      "ingredient": "corn kernels",
+      "singular": "corn kernel",
+      "store_cost": 2.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 2.75,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "cornstarch",
+      "singular": "cornstarch",
+      "store_cost": 1.5,
+      "type": "grain"
+    }
+  ],
+  "recipe": "cornstarch",
+  "recipe_plural": "cornstarch",
+  "recipe_singular": "cornstarch"
+}

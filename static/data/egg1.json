@@ -1,0 +1,58 @@
+{
+  "directions": [
+    "Raise a chicken by providing it with food, water, and appropriate living conditions.",
+    "Wait for the chicken to lay an egg.",
+    "Collect the egg."
+  ],
+  "hours": {
+    "parallel": 170.0,
+    "serial": 504.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "live chicken",
+      "singular": "live chicken",
+      "store_cost": 5.0,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "week"
+      },
+      "ingredient": "chicken feed",
+      "singular": "chicken feed",
+      "store_cost": 10.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 7,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "egg",
+      "singular": "egg",
+      "store_cost": 0.25,
+      "type": "animal"
+    }
+  ],
+  "recipe": "egg",
+  "recipe_plural": "eggs",
+  "recipe_singular": "egg"
+}

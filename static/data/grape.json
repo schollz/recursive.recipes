@@ -1,0 +1,67 @@
+{
+  "directions": [
+    "Place the grape seeds in a cup of water and soak them overnight.",
+    "Rinse the soaked seeds and transfer them to a small pot.",
+    "Add 1 cup of water to the pot and bring it to a boil.",
+    "Simmer the seeds for 10 minutes, then remove from heat and let it cool.",
+    "Strain the seeds and discard any remaining water.",
+    "Spread the seeds on a clean, moist cloth and place it in a warm area with sunlight.",
+    "Keep the cloth moist by misting it with water every few hours.",
+    "After 5 days, the sprouted seeds will be ready to plant.",
+    "Prepare a pot with well-draining soil and plant the sprouted seeds, covering them lightly with soil.",
+    "Place the pot in a sunny location and water the plants regularly.",
+    "After about 3 months, the grape vines will start producing fruits.",
+    "Harvest the grapes when they are fully ripened and enjoy!"
+  ],
+  "hours": {
+    "parallel": 1200.0,
+    "serial": 2200.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "grams"
+      },
+      "ingredient": "grape seeds",
+      "singular": "grape seed",
+      "store_cost": 0.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "hours"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "bunch"
+      },
+      "ingredient": "grapes",
+      "singular": "grape",
+      "store_cost": 3.0,
+      "type": "plants"
+    }
+  ],
+  "recipe": "grape",
+  "recipe_plural": "grapes",
+  "recipe_singular": "grape"
+}

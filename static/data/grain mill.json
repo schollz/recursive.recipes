@@ -1,0 +1,62 @@
+{
+  "directions": [
+    "Gather 50 kilograms of steel to build the mill components",
+    "Acquire an electric motor for powering the mill",
+    "Install and assemble the steel components and electric motor to create the grain mill",
+    "Obtain 200 kilograms of grains such as wheat, corn, etc.",
+    "Feed the grains into the mill and operate it using the electric motor",
+    "Allow the mill to grind the grains until they reach the desired consistency",
+    "Collect the freshly milled flour and store it for later use"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 8.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 50.0,
+        "unit": "kilograms"
+      },
+      "ingredient": "steel",
+      "singular": "steel",
+      "store_cost": 100.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "whole"
+      },
+      "ingredient": "electric motor",
+      "singular": "electric motor",
+      "store_cost": 25.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 200.0,
+        "unit": "kilograms"
+      },
+      "ingredient": "grains (wheat, corn, etc.)",
+      "singular": "grain",
+      "store_cost": 150.0,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "whole"
+      },
+      "ingredient": "grain mill",
+      "singular": "grain mill",
+      "store_cost": 500.0,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "grain mill",
+  "recipe_plural": "grain mills",
+  "recipe_singular": "grain mill"
+}

@@ -1,0 +1,66 @@
+{
+  "directions": [
+    "Soak the soybeans in water overnight.",
+    "Drain and rinse the soybeans thoroughly.",
+    "Puree the soybeans with water in a blender until smooth.",
+    "Strain the puree through a cheesecloth or fine mesh sieve to remove solids.",
+    "Transfer the strained liquid to a large container.",
+    "Add hexane to the liquid and stir well.",
+    "Let the mixture sit for 30 minutes to allow the hexane to separate the lecithin from other components.",
+    "Carefully decant the top layer, which contains the lecithin, into a separate container.",
+    "Discard the bottom layer.",
+    "Store the soy lecithin in an airtight container in the refrigerator.",
+    "Use as a natural emulsifier and stabilizer in various recipes."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 4.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2000.0,
+        "unit": "grams"
+      },
+      "ingredient": "soybeans",
+      "singular": "soybean",
+      "store_cost": 4.99,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 0.021,
+        "unit": "cups"
+      },
+      "ingredient": "hexane",
+      "singular": "hexane",
+      "store_cost": 0.25,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 6.5,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cups"
+      },
+      "ingredient": "soy lecithin",
+      "singular": "soy lecithin",
+      "store_cost": 7.99,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "soy lecithin",
+  "recipe_plural": "soy lecithin",
+  "recipe_singular": "soy lecithin"
+}

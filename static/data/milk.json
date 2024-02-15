@@ -1,0 +1,38 @@
+{
+  "directions": [
+    "Find a healthy and lactating cow",
+    "Milk the cow using clean and sanitized equipment",
+    "Store the milk in a clean and refrigerated container"
+  ],
+  "hours": {
+    "parallel": 1.0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "whole"
+      },
+      "ingredient": "cow",
+      "singular": "cow",
+      "store_cost": 2000.0,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 4.0,
+        "unit": "cups"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 2.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "milk",
+  "recipe_plural": "milk",
+  "recipe_singular": "milk"
+}

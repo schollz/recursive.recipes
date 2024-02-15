@@ -1,0 +1,53 @@
+{
+  "directions": [
+    "Remove the outer leaves of the sugar cane stalks and cut them into smaller pieces.",
+    "Place the sugar cane pieces in a large pot and fill it with water.",
+    "Bring the water to a boil and let it simmer for 2 hours or until the sugar cane becomes soft.",
+    "Remove the sugar cane from the pot and let it cool.",
+    "Once cooled, extract the juice from the sugar cane by squeezing it or using a juicer.",
+    "Transfer the sugar cane juice back into the pot and simmer over low heat.",
+    "Continue simmering for about 1-2 hours, stirring occasionally, until the juice reduces and thickens into molasses.",
+    "Remove from heat and let it cool before transferring to a jar or container for storage."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 5.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 10,
+        "unit": "whole"
+      },
+      "ingredient": "sugar cane",
+      "singular": "sugar cane",
+      "store_cost": 5.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2.67,
+        "unit": "cups"
+      },
+      "ingredient": "molasses",
+      "singular": "molasses",
+      "store_cost": 3.99,
+      "type": "natural"
+    }
+  ],
+  "recipe": "molasses",
+  "recipe_plural": "molasses",
+  "recipe_singular": "molasses"
+}

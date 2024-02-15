@@ -1,0 +1,38 @@
+{
+  "directions": [
+    "Harvest mature wheat plants",
+    "Thresh and remove the outer husks of the wheat grains",
+    "Grind the wheat grains into a fine powder to obtain flour"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 5000.0,
+        "unit": "grams"
+      },
+      "ingredient": "wheat",
+      "singular": "wheat",
+      "store_cost": 5.0,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 5000.0,
+        "unit": "grams"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 5.0,
+      "type": "grain"
+    }
+  ],
+  "recipe": "flour",
+  "recipe_plural": "flour",
+  "recipe_singular": "flour"
+}

@@ -1,0 +1,78 @@
+{
+  "directions": [
+    "Plant a nutmeg tree in a large pot or in a sunny spot in your garden.",
+    "Make sure the soil is well-drained and fertile by adding compost or organic matter to it.",
+    "Water the nutmeg tree regularly, keeping the soil moist but not waterlogged.",
+    "Keep the tree in a warm and humid environment, as nutmeg trees prefer tropical conditions.",
+    "Allow the tree to grow for about 7-9 years until it reaches maturity.",
+    "When the tree starts producing fruits, wait for the fruits to turn yellow and split open.",
+    "Harvest the fruits and remove the outer layer to reveal the nutmeg seeds.",
+    "Carefully remove the red aril surrounding the seeds, as it is used to make mace.",
+    "Dry the nutmeg seeds in the sun for several hours until they become hard and dry.",
+    "Crack open the dried seeds to obtain the whole nutmeg kernels.",
+    "Using a nutmeg grater or a spice grinder, grind the nutmeg kernels into a fine powder.",
+    "Store the ground nutmeg in an airtight container in a cool, dry place.",
+    "Use the freshly ground nutmeg in your favorite recipes for added flavor and aroma."
+  ],
+  "hours": {
+    "parallel": 0.0,
+    "serial": 70440.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "nutmeg tree",
+      "singular": "nutmeg tree",
+      "store_cost": 100.0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 50.0,
+        "unit": "pounds"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 5.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 50.0,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 8.0,
+        "unit": "hours"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "nutmeg",
+      "singular": "nutmeg",
+      "store_cost": 2.0,
+      "type": "spice"
+    }
+  ],
+  "recipe": "nutmeg",
+  "recipe_plural": "nutmeg",
+  "recipe_singular": "nutmeg"
+}

@@ -1,0 +1,44 @@
+{
+  "directions": [
+    "Harvest ripe olives from olive trees.",
+    "Wash the olives thoroughly with water to remove any dirt or debris.",
+    "Crush the olives to extract the oil from the fruit.",
+    "Transfer the crushed olives to a press or mill.",
+    "Apply pressure to the olives to separate the oil from the solids.",
+    "Collect the extracted olive oil in a container.",
+    "Allow the olive oil to settle and separate from any remaining water or sediment.",
+    "Strain the olive oil through a fine mesh to remove any impurities.",
+    "Store the olive oil in a clean, airtight container away from direct sunlight."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 8.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1000.0,
+        "unit": "grams"
+      },
+      "ingredient": "olives",
+      "singular": "olive",
+      "store_cost": 2.0,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.45,
+        "unit": "cups"
+      },
+      "ingredient": "olive oil",
+      "singular": "olive oil",
+      "store_cost": 8.0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "olive oil",
+  "recipe_plural": "olive oil",
+  "recipe_singular": "olive oil"
+}

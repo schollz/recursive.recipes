@@ -1,0 +1,61 @@
+{
+  "directions": [
+    "Prepare a suitable enclosure with shelter and fencing for chickens.",
+    "Purchase chicken feed and provide it to the chickens daily as per instructions.",
+    "Ensure access to clean water for the chickens by providing water containers or a watering system.",
+    "Monitor the chickens' health and provide necessary medical care or vaccinations.",
+    "Allow the chickens to grow for several months until they reach maturity.",
+    "Harvest the live chickens by following proper slaughter and processing methods."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 4320.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "pounds"
+      },
+      "ingredient": "chicken feed",
+      "singular": "chicken feed",
+      "store_cost": 5.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 15.0,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "acres"
+      },
+      "ingredient": "farm land",
+      "singular": "farm land",
+      "store_cost": 1000.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "live chicken",
+      "singular": "live chicken",
+      "store_cost": 10.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "live chicken",
+  "recipe_plural": "live chickens",
+  "recipe_singular": "live chicken"
+}

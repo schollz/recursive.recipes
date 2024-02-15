@@ -1,0 +1,58 @@
+{
+  "directions": [
+    "In a bowl, combine baking soda, cream of tartar, and cornstarch.",
+    "Mix well until all ingredients are evenly distributed.",
+    "Store the homemade baking powder in an airtight container for future use."
+  ],
+  "hours": {
+    "parallel": 0.0,
+    "serial": 0.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "baking soda",
+      "singular": "baking soda",
+      "store_cost": 2.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cups"
+      },
+      "ingredient": "cream of tartar",
+      "singular": "cream of tartar",
+      "store_cost": 2.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.25,
+        "unit": "cups"
+      },
+      "ingredient": "cornstarch",
+      "singular": "cornstarch",
+      "store_cost": 0.5,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "baking powder",
+      "singular": "baking powder",
+      "store_cost": 5.0,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "baking powder",
+  "recipe_plural": "baking powder",
+  "recipe_singular": "baking powder"
+}

@@ -1,0 +1,72 @@
+{
+  "directions": [
+    "Fill a pot or tray with potting soil.",
+    "Plant the tomato seeds in the potting soil, following the recommended spacing.",
+    "Water the soil thoroughly and place the pot or tray in a sunny location.",
+    "Water the plants regularly, keeping the soil moist but not soaked.",
+    "Allow the tomatoes to grow and ripen on the plants.",
+    "Harvest the ripe tomatoes when they are fully red and firm.",
+    "Wash the tomatoes before using them in recipes."
+  ],
+  "hours": {
+    "parallel": 8.0,
+    "serial": 720.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 20,
+        "unit": "seeds"
+      },
+      "ingredient": "tomato seeds",
+      "singular": "tomato seed",
+      "store_cost": 2.5,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 10,
+        "unit": "pounds"
+      },
+      "ingredient": "potting soil",
+      "singular": "potting soil",
+      "store_cost": 5.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 10,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 8,
+        "unit": "hours"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 10,
+        "unit": "whole"
+      },
+      "ingredient": "tomatoes",
+      "singular": "tomato",
+      "store_cost": 3.0,
+      "type": "plants"
+    }
+  ],
+  "recipe": "tomato",
+  "recipe_plural": "tomatoes",
+  "recipe_singular": "tomato"
+}

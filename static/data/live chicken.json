@@ -1,0 +1,81 @@
+{
+  "directions": [
+    "Obtain a fertile chicken egg",
+    "Place the egg in an incubator at a temperature of 99-101\u00b0F (37-38\u00b0C) for 21 days",
+    "Provide water, chicken feed, and a suitable chicken coop for the growing chick",
+    "Ensure the chick receives appropriate care, such as protection from predators and regular feeding",
+    "Allow the chick to grow for approximately 16-20 weeks until fully matured",
+    "Once the chicken is fully grown, it can be considered a live chicken"
+  ],
+  "hours": {
+    "parallel": 1680.0,
+    "serial": 480.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chicken eggs",
+      "singular": "chicken egg",
+      "store_cost": 0.25,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 250.0,
+        "unit": "pounds"
+      },
+      "ingredient": "chicken feed",
+      "singular": "chicken feed",
+      "store_cost": 10.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chicken coop",
+      "singular": "chicken coop",
+      "store_cost": 200.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1440.0,
+        "unit": "square feet"
+      },
+      "ingredient": "farm land",
+      "singular": "farm land",
+      "store_cost": 500.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "live chicken",
+      "singular": "live chicken",
+      "store_cost": 15.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "live chicken",
+  "recipe_plural": "live chickens",
+  "recipe_singular": "live chicken"
+}

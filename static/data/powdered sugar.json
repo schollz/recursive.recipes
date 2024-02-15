@@ -1,0 +1,51 @@
+{
+  "directions": [
+    "Measure 2 cups of granulated sugar into a blender or food processor.",
+    "Add 1 tablespoon of cornstarch to the blender or food processor.",
+    "Pulse or blend the mixture on high speed for about 1-2 minutes, until the sugar is finely ground and has a powdery consistency.",
+    "Stop blending occasionally to scrape down the sides of the blender or food processor.",
+    "Transfer the powdered sugar to an airtight container for storage.",
+    "Use as desired in recipes or as a topping for baked goods."
+  ],
+  "hours": {
+    "parallel": 0.083,
+    "serial": 0.25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "granulated sugar",
+      "singular": "granulated sugar",
+      "store_cost": 1.0,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "tablespoon"
+      },
+      "ingredient": "cornstarch",
+      "singular": "cornstarch",
+      "store_cost": 0.2,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "powdered sugar",
+      "singular": "powdered sugar",
+      "store_cost": 3.0,
+      "type": "spice"
+    }
+  ],
+  "recipe": "powdered sugar",
+  "recipe_plural": "powdered sugar",
+  "recipe_singular": "powdered sugar"
+}

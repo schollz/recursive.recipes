@@ -1,0 +1,43 @@
+{
+  "directions": [
+    "Harvest the sugar cane stalks when they are fully grown.",
+    "Remove the leaves and outer layers of the sugar cane.",
+    "Extract the sugar cane juice by crushing the stalks.",
+    "Filter the juice to remove any impurities.",
+    "Boil the juice until it thickens and the water evaporates, leaving behind a thick syrup.",
+    "Allow the syrup to cool and crystallize.",
+    "Once crystallized, grind the sugar crystals into a fine powder.",
+    "Store the sugar in an airtight container."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 48.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "sugar cane",
+      "singular": "sugar cane",
+      "store_cost": 2.0,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2.5,
+        "unit": "cups"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 1.0,
+      "type": "spice"
+    }
+  ],
+  "recipe": "sugar",
+  "recipe_plural": "sugar",
+  "recipe_singular": "sugar"
+}

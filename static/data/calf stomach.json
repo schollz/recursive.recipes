@@ -1,0 +1,72 @@
+{
+  "directions": [
+    "Prepare a suitable area for the calf to live and grow.",
+    "Ensure the calf has access to fresh water and ample grazing land with grass.",
+    "Feed the calf a balanced diet consisting of grains and other nourishing feed.",
+    "Allow the calf to grow and develop for approximately 6-12 months.",
+    "Slaughter the calf humanely and remove the stomach.",
+    "Clean and process the calf stomach following proper butchering techniques.",
+    "The calf stomach is now ready to be used in culinary preparations."
+  ],
+  "hours": {
+    "parallel": 1,
+    "serial": 4380.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "live calf",
+      "singular": "live calf",
+      "store_cost": 500.0,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "kilograms"
+      },
+      "ingredient": "grass",
+      "singular": "grass",
+      "store_cost": 100.0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 10000.0,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1000.0,
+        "unit": "kilograms"
+      },
+      "ingredient": "feed",
+      "singular": "feed",
+      "store_cost": 500.0,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "calf stomach",
+      "singular": "calf stomach",
+      "store_cost": 0.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "calf stomach",
+  "recipe_plural": "calf stomachs",
+  "recipe_singular": "calf stomach"
+}

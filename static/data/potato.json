@@ -1,0 +1,74 @@
+{
+  "directions": [
+    "Prepare the soil by removing any rocks or debris.",
+    "Dig trenches about 30 centimeters apart and 20 centimeters deep.",
+    "Plant the potato seeds in the trenches, spacing them about 30 centimeters apart.",
+    "Cover the seeds with soil and water thoroughly.",
+    "Once the potato plants have grown to about 15 centimeters tall, add fertilizer and water regularly.",
+    "Continue to water and care for the plants as they grow.",
+    "Harvest the potatoes when they have reached the desired size, usually around 2-3 months after planting.",
+    "Gently dig up the potatoes from the soil, being careful not to damage them.",
+    "Store the harvested potatoes in a cool, dark place until ready to use."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 1000.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "packet"
+      },
+      "ingredient": "potato seeds",
+      "singular": "potato seed",
+      "store_cost": 2.99,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 5,
+        "unit": "kilograms"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5000,
+        "unit": "milliliters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 100,
+        "unit": "grams"
+      },
+      "ingredient": "fertilizer",
+      "singular": "fertilizer",
+      "store_cost": 5.99,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 10,
+        "unit": "kilograms"
+      },
+      "ingredient": "potatoes",
+      "singular": "potato",
+      "store_cost": 9.99,
+      "type": "plants"
+    }
+  ],
+  "recipe": "potato",
+  "recipe_plural": "potatoes",
+  "recipe_singular": "potato"
+}

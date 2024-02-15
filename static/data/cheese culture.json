@@ -1,0 +1,56 @@
+{
+  "directions": [
+    "Heat the milk in a large pot until it reaches 90\u00b0F (32\u00b0C).",
+    "Sprinkle the cheese starter culture over the surface of the milk and let it sit undisturbed for 1-2 minutes.",
+    "Gently stir the culture into the milk using a spoon.",
+    "Cover the pot with a clean cloth and let it sit at room temperature for 12-24 hours, or until the milk has thickened and coagulated.",
+    "Cut the coagulated milk into curds using a long knife or curd cutter.",
+    "Gently stir the curds for 15 minutes to release more whey.",
+    "Line a colander with cheesecloth and carefully transfer the curds into it, allowing any remaining whey to drain through.",
+    "Tie the corners of the cheesecloth together and hang it up to drain for 6-8 hours, or until the desired consistency is reached.",
+    "Remove the cheese from the cheesecloth, shape it into a ball or a block, and place it in a container for aging.",
+    "Store the cheese at the appropriate temperature and humidity for the specific type of cheese culture being used.",
+    "Allow the cheese to age for the recommended time, typically ranging from a few days to several months, depending on the desired flavor and texture."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 36
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "gallon"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 2.99,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "envelope"
+      },
+      "ingredient": "cheese starter culture",
+      "singular": "cheese starter culture",
+      "store_cost": 4.99,
+      "type": "synthetic"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "envelope"
+      },
+      "ingredient": "cheese culture",
+      "singular": "cheese culture",
+      "store_cost": 4.99,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "cheese culture",
+  "recipe_plural": "cheese cultures",
+  "recipe_singular": "cheese culture"
+}

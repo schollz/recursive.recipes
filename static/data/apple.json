@@ -1,0 +1,73 @@
+{
+  "directions": [
+    "Plant the apple seed in a pot filled with soil.",
+    "Water the seed and make sure the soil stays moist.",
+    "Place the pot in an area with plenty of sunlight.",
+    "Wait for the seed to germinate and grow into a sapling, this may take several weeks.",
+    "Continue watering the sapling and providing it with sunlight for about a year.",
+    "Once the sapling has grown into a mature apple tree, it will start producing apples.",
+    "Harvest the ripe apples from the tree.",
+    "Enjoy the fresh and delicious apples!"
+  ],
+  "hours": {
+    "parallel": 8760.0,
+    "serial": 8760.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "apple seed",
+      "singular": "apple seed",
+      "store_cost": 0.05,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5,
+        "unit": "cups"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 8.0,
+        "unit": "hours"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "apple",
+      "singular": "apple",
+      "store_cost": 0.6,
+      "type": "plant"
+    }
+  ],
+  "recipe": "apple",
+  "recipe_plural": "apples",
+  "recipe_singular": "apple"
+}

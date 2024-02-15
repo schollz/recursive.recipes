@@ -1,0 +1,49 @@
+{
+  "directions": [
+    "Locate a natural spring or obtain groundwater.",
+    "Collect the spring water or extract groundwater.",
+    "Store the water in a clean container.",
+    "Use the spring water as desired."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "groundwater",
+      "singular": "groundwater",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "spring",
+      "singular": "spring",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "spring water",
+      "singular": "spring water",
+      "store_cost": 0.01,
+      "type": "natural"
+    }
+  ],
+  "recipe": "spring water",
+  "recipe_plural": "spring water",
+  "recipe_singular": "spring water"
+}

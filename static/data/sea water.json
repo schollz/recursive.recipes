@@ -1,0 +1,37 @@
+{
+  "directions": [
+    "Travel to a location near the ocean",
+    "Collect the sea water from the ocean"
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 1.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "ocean",
+      "singular": "ocean",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "sea water",
+      "singular": "sea water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "sea water",
+  "recipe_plural": "sea water",
+  "recipe_singular": "sea water"
+}

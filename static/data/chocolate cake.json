@@ -1,0 +1,137 @@
+{
+  "directions": [
+    "Preheat the oven to 350\u00b0F (175\u00b0C).",
+    "Grease and flour two 9-inch round cake pans.",
+    "In a large mixing bowl, combine the flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+    "Add the milk, vegetable oil, and vanilla extract to the dry ingredients.",
+    "Mix well until the batter is smooth and well combined.",
+    "Pour the hot water into the batter and mix until just combined. The batter will be thin.",
+    "Divide the batter evenly between the prepared cake pans.",
+    "Bake in the preheated oven for 30-35 minutes or until a toothpick inserted into the center comes out clean.",
+    "Remove the cakes from the oven and let them cool in the pans for 10 minutes.",
+    "Transfer the cakes to a wire rack to cool completely.",
+    "Once the cakes are completely cool, frost with your favorite chocolate frosting or ganache.",
+    "Slice and serve the delicious homemade chocolate cake!"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 1
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2.5,
+        "unit": "cups"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 0.6,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 0.4,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cup"
+      },
+      "ingredient": "cocoa powder",
+      "singular": "cocoa powder",
+      "store_cost": 1.2,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "teaspoons"
+      },
+      "ingredient": "baking powder",
+      "singular": "baking powder",
+      "store_cost": 0.15,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "baking soda",
+      "singular": "baking soda",
+      "store_cost": 0.05,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 1.5,
+        "unit": "cups"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 0.7,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cup"
+      },
+      "ingredient": "vegetable oil",
+      "singular": "vegetable oil",
+      "store_cost": 0.3,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "teaspoons"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 0.2,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "hot water",
+      "singular": "hot water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chocolate cake",
+      "singular": "chocolate cake",
+      "store_cost": 12.99,
+      "type": "food"
+    }
+  ],
+  "recipe": "chocolate cake",
+  "recipe_plural": "chocolate cakes",
+  "recipe_singular": "chocolate cake"
+}

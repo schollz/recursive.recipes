@@ -1,0 +1,66 @@
+{
+  "directions": [
+    "Clean and prepare the calf stomach by removing any impurities.",
+    "Cut the calf stomach into small pieces.",
+    "In a large pot, bring the water to a boil.",
+    "Add the calf stomach pieces to the boiling water and let it simmer for 2 hours.",
+    "Remove the pot from heat and let it cool down.",
+    "Strain the liquid from the pot, discarding the calf stomach pieces.",
+    "Add salt to the liquid and stir until dissolved.",
+    "Transfer the liquid into a sterilized container and let it sit at room temperature for 24 hours.",
+    "After 24 hours, the liquid will have curdled and separated into whey and curds.",
+    "Strain the liquid again to separate the whey from the curds.",
+    "The strained liquid is now rennet and can be used in cheese-making recipes."
+  ],
+  "hours": {
+    "parallel": 2.0,
+    "serial": 26.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "calf stomach",
+      "singular": "calf stomach",
+      "store_cost": 10.0,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "teaspoon"
+      },
+      "ingredient": "rennet",
+      "singular": "rennet",
+      "store_cost": 0.5,
+      "type": "natural"
+    }
+  ],
+  "recipe": "rennet",
+  "recipe_plural": "rennet",
+  "recipe_singular": "rennet"
+}

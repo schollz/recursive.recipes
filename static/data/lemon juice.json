@@ -1,0 +1,52 @@
+{
+  "directions": [
+    "Cut the lemons in half and juice them using a citrus juicer or by hand using a fork or juicer.",
+    "Strain the lemon juice to remove any seeds or pulp.",
+    "In a pitcher, combine the lemon juice and water.",
+    "Stir well to mix the lemon juice and water together.",
+    "Taste and adjust the lemon juice to water ratio according to your preference.",
+    "Refrigerate the lemon juice until chilled.",
+    "Serve the lemon juice over ice and enjoy!"
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 4.0,
+        "unit": "medium-sized"
+      },
+      "ingredient": "lemons",
+      "singular": "lemon",
+      "store_cost": 2.0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cup"
+      },
+      "ingredient": "lemon juice",
+      "singular": "lemon juice",
+      "store_cost": 1.0,
+      "type": "plants"
+    }
+  ],
+  "recipe": "lemon juice",
+  "recipe_plural": "lemon juice",
+  "recipe_singular": "lemon juice"
+}

@@ -1,0 +1,44 @@
+{
+  "directions": [
+    "Pour the milk into a large pot and heat it over low heat.",
+    "Simmer the milk gently, stirring occasionally, until it reduces by 90% and thickens.",
+    "Remove from heat and let it cool slightly.",
+    "Transfer the thickened milk to a silicone baking mat or a parchment-lined baking sheet.",
+    "Spread the milk into a thin layer, making sure it is evenly distributed.",
+    "Allow the milk to air dry completely, which can take up to 24 hours.",
+    "Once dry, use a blender or food processor to blitz the dried milk into a fine powder.",
+    "Store the milk powder in an airtight container.",
+    "Use as desired in recipes or reconstitute with water to make liquid milk."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "gallon"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 3.5,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 10,
+        "unit": "cups"
+      },
+      "ingredient": "milk powder",
+      "singular": "milk powder",
+      "store_cost": 4.99,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "milk powder",
+  "recipe_plural": "milk powders",
+  "recipe_singular": "milk powder"
+}

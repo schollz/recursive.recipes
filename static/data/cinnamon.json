@@ -1,0 +1,71 @@
+{
+  "directions": [
+    "Plant the cinnamon tree sapling in a large pot or directly in the ground in a warm, tropical climate.",
+    "Water the tree regularly and ensure it receives sufficient sunlight for 2 years to allow it to grow and mature.",
+    "Harvest the cinnamon bark from the tree trunk. Use a sharp knife to carefully peel off the outer bark layer.",
+    "Allow the bark strips to dry in the sun for a few weeks until they become dry and brittle.",
+    "Grind the dry cinnamon bark into a fine powder using a mortar and pestle or a spice grinder.",
+    "Store the homemade cinnamon powder in an airtight container in a cool, dry place."
+  ],
+  "hours": {
+    "parallel": 2,
+    "serial": 17520.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "cinnamon tree",
+      "singular": "cinnamon tree",
+      "store_cost": 0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "years"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "cups"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 50.0,
+        "unit": "grams"
+      },
+      "ingredient": "cinnamon",
+      "singular": "cinnamon",
+      "store_cost": 1.99,
+      "type": "spice"
+    }
+  ],
+  "recipe": "cinnamon",
+  "recipe_plural": "cinnamon",
+  "recipe_singular": "cinnamon"
+}

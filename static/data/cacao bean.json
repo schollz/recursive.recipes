@@ -1,0 +1,65 @@
+{
+  "directions": [
+    "Plant and grow a cacao tree in a suitable climate.",
+    "Provide regular sunlight and water for the tree's growth.",
+    "After about 3-5 years, the tree will begin producing cacao pods.",
+    "Harvest the cacao pods from the tree when they are ripe.",
+    "Open the pods and remove the cacao beans from inside.",
+    "Ferment the cacao beans for about one week to develop flavor.",
+    "Dry the fermented cacao beans in the sun or using a drying machine.",
+    "Roast the dried cacao beans to enhance their flavor.",
+    "Crack and grind the roasted cacao beans to make cocoa powder.",
+    "Use the cocoa powder to make various chocolate-based recipes."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 43800.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "cacao tree",
+      "singular": "cacao tree",
+      "store_cost": 20.0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 365.0,
+        "unit": "days"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "kilogram"
+      },
+      "ingredient": "cacao beans",
+      "singular": "cacao bean",
+      "store_cost": 40.0,
+      "type": "plants"
+    }
+  ],
+  "recipe": "cacao beans",
+  "recipe_plural": "cacao beans",
+  "recipe_singular": "cacao bean"
+}

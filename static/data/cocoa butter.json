@@ -1,0 +1,55 @@
+{
+  "directions": [
+    "Roast the cocoa beans in an oven at 250\u00b0F (120\u00b0C) for 25 minutes.",
+    "Remove the beans from the oven and let them cool.",
+    "Crack open the roasted cocoa beans and remove the shells.",
+    "Grind the cocoa nibs into a fine powder using a coffee grinder.",
+    "Place the cocoa powder in a heat-resistant bowl.",
+    "Melt the cocoa powder by placing it over a source of heat, such as a double boiler or a stove on low heat.",
+    "Stir the cocoa powder continuously until it forms a smooth liquid.",
+    "Pour the melted cocoa liquid into a container lined with cheesecloth or a fine strainer.",
+    "Allow the liquid to cool and solidify.",
+    "The solidified cocoa butter can be used for various culinary or cosmetic purposes."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 1
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kg"
+      },
+      "ingredient": "cocoa beans",
+      "singular": "cocoa bean",
+      "store_cost": 5.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 0,
+        "unit": "natural"
+      },
+      "ingredient": "heat",
+      "singular": "heat",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 400.0,
+        "unit": "grams"
+      },
+      "ingredient": "cocoa butter",
+      "singular": "cocoa butter",
+      "store_cost": 8.0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "cocoa butter",
+  "recipe_plural": "cocoa butter",
+  "recipe_singular": "cocoa butter"
+}

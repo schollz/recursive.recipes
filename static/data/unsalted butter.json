@@ -1,0 +1,41 @@
+{
+  "directions": [
+    "Pour the cream into a stand mixer.",
+    "Beat the cream on medium-high speed until it thickens and separates into butter and buttermilk.",
+    "Place the butter in a bowl and knead it with a wooden spoon to remove any remaining buttermilk.",
+    "Rinse the butter under cold water and knead it again to ensure all the buttermilk is removed.",
+    "Drain excess water and transfer the butter to a container.",
+    "Refrigerate the butter for at least 1 hour to firm it up before using."
+  ],
+  "hours": {
+    "parallel": 0.25,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "cups"
+      },
+      "ingredient": "cream",
+      "singular": "cream",
+      "store_cost": 3.0,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "cups"
+      },
+      "ingredient": "unsalted butter",
+      "singular": "unsalted butter",
+      "store_cost": 4.99,
+      "type": "animal"
+    }
+  ],
+  "recipe": "unsalted butter",
+  "recipe_plural": "unsalted butters",
+  "recipe_singular": "unsalted butter"
+}

@@ -1,0 +1,70 @@
+{
+  "directions": [
+    "Peel and chop the potatoes into small pieces.",
+    "Place the chopped potatoes in a large pot and cover with water.",
+    "Bring the water to a boil and cook the potatoes until they are very soft.",
+    "Drain the potatoes and let them cool.",
+    "In a separate container, dissolve the yeast in warm water and let it sit for 5 minutes.",
+    "Mash the cooked potatoes until they are smooth.",
+    "Combine the mashed potatoes and yeast mixture in a large container.",
+    "Cover the container with a lid or plastic wrap and let it ferment for 2-3 days.",
+    "After fermentation, strain the mixture through a cheesecloth or fine mesh strainer to remove any solids.",
+    "Transfer the liquid into a clean container and let it sit for another 3-4 days to allow any remaining solids to settle.",
+    "Carefully pour off the clear liquid, leaving behind any sediment at the bottom.",
+    "Gently filter the liquid through a coffee filter or activated carbon to remove any impurities.",
+    "Once filtered, pour the vodka into a clean bottle and seal.",
+    "Let the vodka rest for a week to allow the flavors to mellow.",
+    "After a week, your homemade vodka is ready to be enjoyed!"
+  ],
+  "hours": {
+    "parallel": 72,
+    "serial": 240.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 5,
+        "unit": "pounds"
+      },
+      "ingredient": "potatoes",
+      "singular": "potato",
+      "store_cost": 2.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 10,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 7,
+        "unit": "grams"
+      },
+      "ingredient": "yeast",
+      "singular": "yeast",
+      "store_cost": 0.35,
+      "type": "fungi"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "bottle"
+      },
+      "ingredient": "vodka",
+      "singular": "vodka",
+      "store_cost": 19.99,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "vodka",
+  "recipe_plural": "vodka",
+  "recipe_singular": "vodka"
+}

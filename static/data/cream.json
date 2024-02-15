@@ -1,0 +1,39 @@
+{
+  "directions": [
+    "Pour the milk into a bowl",
+    "Let the milk sit undisturbed for 12-24 hours at room temperature",
+    "After the designated time, skim off the cream from the top of the milk",
+    "Discard or reserve the remaining liquid (milk)"
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 24
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "cow milk",
+      "singular": "cow milk",
+      "store_cost": 0.4,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cups"
+      },
+      "ingredient": "cream",
+      "singular": "cream",
+      "store_cost": 0.5,
+      "type": "animal"
+    }
+  ],
+  "recipe": "cream",
+  "recipe_plural": "cream",
+  "recipe_singular": "cream"
+}

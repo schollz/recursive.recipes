@@ -1,0 +1,51 @@
+{
+  "directions": [
+    "Using a sharp knife, split each vanilla bean lengthwise.",
+    "Scrape out the seeds from each vanilla bean with the back of the knife.",
+    "Place the vanilla beans and seeds into a glass jar or bottle.",
+    "Pour the vodka into the jar, ensuring that the beans are fully submerged.",
+    "Seal the jar tightly and store it in a cool, dark place for at least 6 weeks, shaking the jar occasionally.",
+    "After 6 weeks, the vanilla extract can be used in your recipes."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 1008.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 3,
+        "unit": "whole"
+      },
+      "ingredient": "vanilla beans",
+      "singular": "vanilla bean",
+      "store_cost": 9.99,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "vodka",
+      "singular": "vodka",
+      "store_cost": 10.0,
+      "type": "synthetic"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 15.0,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "vanilla extract",
+  "recipe_plural": "vanilla extract",
+  "recipe_singular": "vanilla extract"
+}

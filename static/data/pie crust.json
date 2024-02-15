@@ -1,0 +1,75 @@
+{
+  "directions": [
+    "In a large mixing bowl, combine the all-purpose flour and salt.",
+    "Cut the unsalted butter into small pieces and add them to the flour mixture.",
+    "Using a pastry cutter or your hands, work the butter into the flour until the mixture resembles coarse crumbs.",
+    "Add the ice water, one tablespoon at a time, and mix until the dough comes together.",
+    "Shape the dough into a disk, wrap it in plastic wrap, and refrigerate for at least 1 hour.",
+    "Preheat the oven to the desired temperature for your pie recipe.",
+    "On a lightly floured surface, roll out the chilled dough into a circle slightly larger than your pie dish.",
+    "Carefully transfer the rolled-out dough to the pie dish and gently press it into the bottom and sides.",
+    "Trim any excess overhang and crimp the edges as desired.",
+    "If needed, chill the crust again before baking according to your pie recipe's instructions."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 2
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "all-purpose flour",
+      "singular": "all-purpose flour",
+      "store_cost": 0.4,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cup"
+      },
+      "ingredient": "unsalted butter",
+      "singular": "unsalted butter",
+      "store_cost": 1.5,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 4,
+        "unit": "tablespoons"
+      },
+      "ingredient": "ice water",
+      "singular": "ice water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "pie crust",
+      "singular": "pie crust",
+      "store_cost": 2.0,
+      "type": "food"
+    }
+  ],
+  "recipe": "pie crust",
+  "recipe_plural": "pie crusts",
+  "recipe_singular": "pie crust"
+}

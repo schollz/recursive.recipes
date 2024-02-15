@@ -1,0 +1,40 @@
+{
+  "directions": [
+    "Harvest sugar cane stalks",
+    "Extract juice from the sugar cane stalks",
+    "Heat the juice to evaporate the water content",
+    "Allow the liquid to cool and crystallize",
+    "Grind the crystallized sugar into granules"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 28.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kg"
+      },
+      "ingredient": "sugar cane",
+      "singular": "sugar cane",
+      "store_cost": 1.99,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kg"
+      },
+      "ingredient": "granulated sugar",
+      "singular": "sugar",
+      "store_cost": 2.99,
+      "type": "spice"
+    }
+  ],
+  "recipe": "granulated sugar",
+  "recipe_plural": "granulated sugar",
+  "recipe_singular": "granulated sugar"
+}

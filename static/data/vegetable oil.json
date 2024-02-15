@@ -1,0 +1,69 @@
+{
+  "directions": [
+    "Obtain the vegetable seeds of your choice.",
+    "Clean and remove any impurities from the vegetable seeds.",
+    "Dry the seeds thoroughly.",
+    "In a large bowl, combine the vegetable seeds and water. Let the seeds soak for 24 hours.",
+    "After soaking, drain the water from the seeds and transfer them to a blender or grinder.",
+    "Grind the soaked seeds into a fine paste.",
+    "In a separate container, mix hexane with water in a ratio of 1:4. This will serve as the solvent.",
+    "Add the vegetable seed paste to the solvent mixture and stir well.",
+    "Let the mixture sit for a few hours to allow the hexane to extract the oil from the seeds.",
+    "Filter the mixture using a cheesecloth or strainer to separate the oil from the solid residue.",
+    "Collect the filtered vegetable oil in a clean container.",
+    "Transfer the vegetable oil to a glass bottle or jar for storage.",
+    "Store the vegetable oil in a cool, dry place away from direct sunlight.",
+    "Use as desired in cooking or baking."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "vegetable seeds",
+      "singular": "vegetable seeds",
+      "store_cost": 1.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 120.0,
+        "unit": "grams"
+      },
+      "ingredient": "hexane",
+      "singular": "hexane",
+      "store_cost": 0.5,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 400.0,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "vegetable oil",
+      "singular": "vegetable oil",
+      "store_cost": 2.0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "vegetable oil",
+  "recipe_plural": "vegetable oil",
+  "recipe_singular": "vegetable oil"
+}

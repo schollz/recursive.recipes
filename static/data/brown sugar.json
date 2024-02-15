@@ -1,0 +1,48 @@
+{
+  "directions": [
+    "In a mixing bowl, combine the granulated sugar and molasses.",
+    "Stir well until the molasses is evenly incorporated into the sugar.",
+    "Use immediately, or store in an airtight container for later use."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "granulated sugar",
+      "singular": "granulated sugar",
+      "store_cost": 0.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "tablespoon"
+      },
+      "ingredient": "molasses",
+      "singular": "molasses",
+      "store_cost": 0.1,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "brown sugar",
+      "singular": "brown sugar",
+      "store_cost": 0.6,
+      "type": "spice"
+    }
+  ],
+  "recipe": "brown sugar",
+  "recipe_plural": "brown sugar",
+  "recipe_singular": "brown sugar"
+}

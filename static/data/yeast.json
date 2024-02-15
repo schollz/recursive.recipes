@@ -1,0 +1,48 @@
+{
+  "directions": [
+    "Wash the grapes thoroughly to remove any dirt or debris.",
+    "Place the grapes in a large container and cover them with water.",
+    "Crush the grapes using a potato masher or your hands to release their juice.",
+    "Cover the container with a clean cloth or plastic wrap and let it sit for several days.",
+    "During this time, natural yeast present on the grape skins will ferment the juice.",
+    "After several days, strain the liquid from the grape pulp.",
+    "Transfer the liquid to a sterile glass jar or container.",
+    "Cover the jar loosely with a clean cloth or coffee filter to allow for airflow.",
+    "Let the liquid sit at room temperature for 1-2 weeks, stirring occasionally.",
+    "Over time, the yeast will multiply and consume the sugars in the liquid, producing carbon dioxide and alcohol.",
+    "Once the liquid has developed a yeasty aroma and a layer of foam on top, it is ready to use as yeast.",
+    "To use the yeast in recipes, measure out the desired amount and add it to the dough or batter as directed.",
+    "Store any remaining yeast in the refrigerator for future use."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 192
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "kilograms"
+      },
+      "ingredient": "grapes",
+      "singular": "grape",
+      "store_cost": 4.99,
+      "type": "plants"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 10,
+        "unit": "grams"
+      },
+      "ingredient": "yeast",
+      "singular": "yeast",
+      "store_cost": 0.99,
+      "type": "fungi"
+    }
+  ],
+  "recipe": "yeast",
+  "recipe_plural": "yeast",
+  "recipe_singular": "yeast"
+}

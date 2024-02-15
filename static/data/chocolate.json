@@ -1,0 +1,95 @@
+{
+  "directions": [
+    "Roast the cocoa beans in an oven at 250\u00b0F (120\u00b0C) for about 10 minutes.",
+    "Remove the cocoa beans from the oven and let them cool.",
+    "Peel off the shells of the cocoa beans to reveal the cocoa nibs.",
+    "Grind the cocoa nibs in a grinder until they turn into a fine paste.",
+    "In a double boiler, melt the cocoa butter and add the ground cocoa nibs.",
+    "Stir in the sugar, vanilla extract, milk powder, and salt until well combined.",
+    "Continue stirring the mixture over low heat until it becomes smooth and shiny.",
+    "Pour the chocolate mixture into a chocolate mold or onto a lined baking sheet.",
+    "Let the chocolate cool until it hardens.",
+    "Remove the chocolate from the mold or break it into pieces if using a baking sheet."
+  ],
+  "hours": {
+    "parallel": 1,
+    "serial": 2
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 250.0,
+        "unit": "grams"
+      },
+      "ingredient": "cocoa beans",
+      "singular": "cocoa bean",
+      "store_cost": 3.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 125.0,
+        "unit": "grams"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 0.2,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 150.0,
+        "unit": "grams"
+      },
+      "ingredient": "cocoa butter",
+      "singular": "cocoa butter",
+      "store_cost": 3.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "milliliters"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 1.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "milk powder",
+      "singular": "milk powder",
+      "store_cost": 1.5,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "grams"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "bar"
+      },
+      "ingredient": "chocolate",
+      "singular": "chocolate",
+      "store_cost": 2.99,
+      "type": "food"
+    }
+  ],
+  "recipe": "chocolate",
+  "recipe_plural": "chocolates",
+  "recipe_singular": "chocolate"
+}

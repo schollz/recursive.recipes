@@ -1,0 +1,76 @@
+{
+  "directions": [
+    "In a large mixing bowl, combine the flour and salt.",
+    "In a small bowl, dissolve the yeast in warm water and let it sit for 5 minutes until foamy.",
+    "Make a well in the center of the flour mixture and pour in the yeast mixture.",
+    "Stir until a dough forms, then knead the dough on a floured surface for about 10 minutes until smooth and elastic.",
+    "Place the dough in a greased bowl, cover with a damp towel, and let it rise in a warm place for 1-2 hours or until doubled in size.",
+    "Preheat the oven to 425\u00b0F (220\u00b0C).",
+    "Punch down the dough and shape it into a loaf.",
+    "Place the shaped dough on a greased baking sheet or in a greased loaf pan.",
+    "Cover the dough with a damp towel and let it rise again for 30-45 minutes.",
+    "Bake the bread for 25-30 minutes or until golden brown and hollow-sounding when tapped on the bottom.",
+    "Remove from the oven and let it cool on a wire rack before slicing."
+  ],
+  "hours": {
+    "parallel": 1.5,
+    "serial": 2.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 500.0,
+        "unit": "grams"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 1.0,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 325.0,
+        "unit": "milliliters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 7.0,
+        "unit": "grams"
+      },
+      "ingredient": "yeast",
+      "singular": "yeast",
+      "store_cost": 0.35,
+      "type": "fungi"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "grams"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "loaf"
+      },
+      "ingredient": "bread",
+      "singular": "bread",
+      "store_cost": 2.0,
+      "type": "food"
+    }
+  ],
+  "recipe": "bread",
+  "recipe_plural": "breads",
+  "recipe_singular": "bread"
+}

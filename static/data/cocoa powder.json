@@ -1,0 +1,63 @@
+{
+  "directions": [
+    "Roast the cacao beans in an oven at 250\u00b0F (120\u00b0C) for 20-25 minutes, until they become fragrant and crack open.",
+    "Remove the beans from the oven and let them cool slightly.",
+    "Crack the beans open and separate the nibs from the shells.",
+    "Grind the cacao nibs in a food processor or grinder until they form a paste.",
+    "In a separate bowl, mix the sugar and cocoa butter together until well combined.",
+    "Combine the cacao paste with the sugar and cocoa butter mixture.",
+    "Blend the mixture in a food processor until it becomes a fine, powdery consistency.",
+    "Store the cocoa powder in an airtight container."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 2
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "pound"
+      },
+      "ingredient": "cacao beans",
+      "singular": "cacao bean",
+      "store_cost": 6.99,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cup"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 0.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "tablespoons"
+      },
+      "ingredient": "cocoa butter",
+      "singular": "cocoa butter",
+      "store_cost": 1.99,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cup"
+      },
+      "ingredient": "cocoa powder",
+      "singular": "cocoa powder",
+      "store_cost": 3.99,
+      "type": "natural"
+    }
+  ],
+  "recipe": "cocoa powder",
+  "recipe_plural": "cocoa powder",
+  "recipe_singular": "cocoa powder"
+}

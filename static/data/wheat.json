@@ -1,0 +1,75 @@
+{
+  "directions": [
+    "Prepare the soil by tilling and removing any rocks or debris.",
+    "Plant the wheat seeds in rows, leaving space between each seed.",
+    "Water the seeds thoroughly and provide them with adequate sunlight.",
+    "Continue to water the wheat plants regularly, ensuring they receive enough moisture but not too much.",
+    "Allow the wheat to grow for approximately 6 months, or until it has developed fully.",
+    "Once the wheat has ripened and turned golden in color, it is ready to be harvested.",
+    "Using a scythe or sickle, cut the wheat stalks close to the ground.",
+    "Gather the cut wheat stalks and separate the grains from the chaff.",
+    "Store the harvested wheat grains in a dry and cool place.",
+    "To use the wheat, grind it into flour or cook it as desired."
+  ],
+  "hours": {
+    "parallel": 1440.0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "wheat seeds",
+      "singular": "wheat seed",
+      "store_cost": 0.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "kg"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 6.0,
+        "unit": "months"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "kg"
+      },
+      "ingredient": "wheat",
+      "singular": "wheat",
+      "store_cost": 2.0,
+      "type": "grain"
+    }
+  ],
+  "recipe": "wheat",
+  "recipe_plural": "wheat",
+  "recipe_singular": "wheat"
+}

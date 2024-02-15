@@ -1,0 +1,48 @@
+{
+  "directions": [
+    "Obtain a vanilla orchid plant.",
+    "Plant the vanilla orchid in a suitable location with partial shade and well-draining soil.",
+    "Provide support for the vine to grow and climb, such as a trellis or stake.",
+    "Water the plant regularly, keeping the soil consistently moist but not waterlogged.",
+    "Allow the plant to grow and mature for 3-4 years.",
+    "Once the plant reaches maturity, it will produce orchid flowers.",
+    "Pollinate the flowers by hand or with the help of local pollinators.",
+    "After pollination, the flowers will develop into long green pods known as vanilla beans.",
+    "Harvest the vanilla beans when they turn brown and become plump and slightly soft.",
+    "Split the beans open lengthwise and scrape out the black seeds inside.",
+    "The scraped seeds and the remaining bean pod can be used to flavor various dishes and desserts.",
+    "Store the vanilla beans in an airtight container away from direct sunlight.",
+    "The vanilla beans can be used in recipes that call for whole beans or the seeds inside."
+  ],
+  "hours": {
+    "parallel": 26280.0,
+    "serial": 105192.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "vanilla orchid",
+      "singular": "vanilla orchid",
+      "store_cost": 15.0,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "vanilla bean",
+      "singular": "vanilla bean",
+      "store_cost": 3.5,
+      "type": "spice"
+    }
+  ],
+  "recipe": "vanilla bean",
+  "recipe_plural": "vanilla beans",
+  "recipe_singular": "vanilla bean"
+}

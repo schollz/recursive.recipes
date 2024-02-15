@@ -1,0 +1,39 @@
+{
+  "directions": [
+    "Clean and sort the soybeans to remove any impurities.",
+    "In a blender or food processor, grind the soybeans into a fine powder.",
+    "Sift the ground soybeans to remove any larger particles.",
+    "Store the soybean meal in an airtight container for future use."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 1.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "soybeans",
+      "singular": "soybean",
+      "store_cost": 0.8,
+      "type": "grain"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "soybean meal",
+      "singular": "soybean meal",
+      "store_cost": 2.5,
+      "type": "other"
+    }
+  ],
+  "recipe": "soybean meal",
+  "recipe_plural": "soybean meals",
+  "recipe_singular": "soybean meal"
+}

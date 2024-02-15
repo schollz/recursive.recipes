@@ -1,0 +1,53 @@
+{
+  "directions": [
+    "Pour the cream into a mixing bowl",
+    "Whisk the cream until it becomes whipped cream",
+    "Continue whisking until the whipped cream thickens and separates into butter and buttermilk",
+    "Pour off the buttermilk and save for another use",
+    "Place the butter in a clean kitchen towel and squeeze out any remaining liquid",
+    "Add salt to taste and mix well",
+    "Shape the butter into a stick or a desired form",
+    "Refrigerate until firm and ready to use"
+  ],
+  "hours": {
+    "parallel": 1,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "cream",
+      "singular": "cream",
+      "store_cost": 4.99,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.125,
+        "unit": "teaspoons"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "butter",
+      "singular": "butter",
+      "store_cost": 1.99,
+      "type": "animal"
+    }
+  ],
+  "recipe": "butter",
+  "recipe_plural": "butter",
+  "recipe_singular": "butter"
+}

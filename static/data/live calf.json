@@ -1,0 +1,83 @@
+{
+  "directions": [
+    "Prepare a suitable grazing area with ample grass for the calf to feed on.",
+    "Ensure the calf has access to fresh water at all times.",
+    "Provide hay bales for the calf to eat and use as bedding.",
+    "Feed corn to the calf in addition to grazing to supplement its diet.",
+    "Give the calf livestock supplements as needed to support its growth.",
+    "Monitor the calf's health and make sure it receives necessary vaccinations and veterinary care.",
+    "Raise the calf until it reaches the desired age or weight, typically 12-18 months.",
+    "When ready, sell or process the live calf as desired."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 8760
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 365,
+        "unit": "days"
+      },
+      "ingredient": "grass",
+      "singular": "grass",
+      "store_cost": 0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 1000,
+        "unit": "gallons"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 365,
+        "unit": "bales"
+      },
+      "ingredient": "hay",
+      "singular": "hay",
+      "store_cost": 500,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 365,
+        "unit": "bushels"
+      },
+      "ingredient": "corn",
+      "singular": "corn",
+      "store_cost": 350,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 10,
+        "unit": "bags"
+      },
+      "ingredient": "livestock supplement",
+      "singular": "livestock supplement",
+      "store_cost": 150,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "live calf",
+      "singular": "live calf",
+      "store_cost": 1000,
+      "type": "animal"
+    }
+  ],
+  "recipe": "live calf",
+  "recipe_plural": "live calves",
+  "recipe_singular": "live calf"
+}

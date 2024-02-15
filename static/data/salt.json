@@ -1,0 +1,52 @@
+{
+  "directions": [
+    "Collect seawater from the ocean.",
+    "Pour the seawater into a shallow, wide container.",
+    "Place the container in direct sunlight.",
+    "Allow the seawater to evaporate naturally under the sun for about 10 days.",
+    "During the evaporation process, periodically stir the water to prevent any crystallization from settling at the bottom.",
+    "Once the water has completely evaporated, you will be left with sea salt crystals.",
+    "Carefully scrape the sea salt crystals off the container, and store them in an airtight container for future use."
+  ],
+  "hours": {
+    "parallel": 80.0,
+    "serial": 80.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "sea water",
+      "singular": "sea water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "days"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 0.041,
+        "unit": "cups"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.05,
+      "type": "spice"
+    }
+  ],
+  "recipe": "salt",
+  "recipe_plural": "salt",
+  "recipe_singular": "salt"
+}

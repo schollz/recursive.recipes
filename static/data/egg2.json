@@ -1,0 +1,43 @@
+{
+  "directions": [
+    "Obtain a live chicken",
+    "Provide a space for the chicken to live and roam",
+    "Feed the chicken a balanced diet of grains and insects",
+    "Ensure the chicken has constant access to fresh water",
+    "Wait for the chicken to mature and start laying eggs (around 4 to 6 months)",
+    "Collect the eggs by gently removing them from the chicken's nesting area",
+    "Rinse the eggs under water, if desired, to remove any dirt or debris",
+    "Store the eggs in a cool and dry place until ready to use"
+  ],
+  "hours": {
+    "parallel": 24,
+    "serial": 180
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chicken",
+      "singular": "live chicken",
+      "store_cost": 10.0,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "egg",
+      "singular": "egg",
+      "store_cost": 0.2,
+      "type": "food"
+    }
+  ],
+  "recipe": "egg",
+  "recipe_plural": "eggs",
+  "recipe_singular": "egg"
+}

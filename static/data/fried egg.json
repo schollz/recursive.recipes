@@ -1,0 +1,52 @@
+{
+  "directions": [
+    "Heat a non-stick pan over medium heat.",
+    "Add the butter and let it melt.",
+    "Crack the egg into a small bowl, then gently slide it into the pan.",
+    "Cook the egg for about 2-3 minutes, until the whites are set but the yolk is still runny.",
+    "If desired, season with salt and pepper.",
+    "Using a spatula, carefully remove the fried egg from the pan.",
+    "Serve hot and enjoy!"
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.05
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "egg",
+      "singular": "egg",
+      "store_cost": 0.15,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "grams"
+      },
+      "ingredient": "butter",
+      "singular": "butter",
+      "store_cost": 0.1,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "fried egg",
+      "singular": "fried egg",
+      "store_cost": 0.25,
+      "type": "food"
+    }
+  ],
+  "recipe": "fried egg",
+  "recipe_plural": "fried eggs",
+  "recipe_singular": "fried egg"
+}

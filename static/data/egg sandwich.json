@@ -1,0 +1,95 @@
+{
+  "directions": [
+    "Crack the eggs into a bowl and whisk them until well beaten.",
+    "Add salt and pepper to the beaten eggs and whisk again.",
+    "Heat a non-stick skillet over medium heat and melt the butter.",
+    "Pour the beaten eggs into the skillet and let them cook undisturbed for a few minutes until the edges start to set.",
+    "Gently lift the edges of the cooked eggs with a spatula and tilt the skillet to allow the uncooked eggs to flow to the edges.",
+    "Cook the eggs until they are mostly set but still slightly runny on top.",
+    "Place a slice of cheese on one slice of bread and top it with the cooked eggs.",
+    "Cover the eggs with the other slice of bread.",
+    "Remove the sandwich from the skillet and cut it in half diagonally.",
+    "Enjoy your delicious egg sandwich!"
+  ],
+  "hours": {
+    "parallel": 0.25,
+    "serial": 0.25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "whole"
+      },
+      "ingredient": "eggs",
+      "singular": "egg",
+      "store_cost": 0.2,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "whole"
+      },
+      "ingredient": "bread",
+      "singular": "bread",
+      "store_cost": 0.4,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "butter",
+      "singular": "butter",
+      "store_cost": 0.05,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.125,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.01,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.125,
+        "unit": "teaspoon"
+      },
+      "ingredient": "pepper",
+      "singular": "pepper",
+      "store_cost": 0.01,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "cheese",
+      "singular": "cheese",
+      "store_cost": 0.5,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "egg sandwich",
+      "singular": "egg sandwich",
+      "store_cost": 1.2,
+      "type": "food"
+    }
+  ],
+  "recipe": "egg sandwich",
+  "recipe_plural": "egg sandwiches",
+  "recipe_singular": "egg sandwich"
+}

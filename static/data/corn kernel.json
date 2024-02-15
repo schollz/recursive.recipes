@@ -1,0 +1,50 @@
+{
+  "directions": [
+    "Remove the corn husk and silk from the corn plant",
+    "With a sharp knife, carefully cut the corn kernels off the cob",
+    "Place the kernels in a pot and add enough water to cover them",
+    "Bring the water to a boil and let it simmer for 5-7 minutes or until the kernels are tender",
+    "Drain the water and use the corn kernels in your desired recipe"
+  ],
+  "hours": {
+    "parallel": 0.01,
+    "serial": 0.25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "corn plant",
+      "singular": "corn plant",
+      "store_cost": 1.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "corn kernel",
+      "singular": "corn kernel",
+      "store_cost": 2.0,
+      "type": "grain"
+    }
+  ],
+  "recipe": "corn kernel",
+  "recipe_plural": "corn kernels",
+  "recipe_singular": "corn kernel"
+}

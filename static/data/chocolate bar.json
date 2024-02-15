@@ -1,0 +1,104 @@
+{
+  "directions": [
+    "Roast the cacao beans in an oven at 280\u00b0F (140\u00b0C) for 30 minutes.",
+    "Remove the roasted cacao beans from the oven and let them cool.",
+    "Crack the roasted cacao beans to remove the outer shell.",
+    "Grind the cacao beans in a grinder until it becomes a fine powder.",
+    "In a double boiler, melt the cocoa butter over low heat.",
+    "Add the ground cacao beans, sugar, milk powder, vanilla extract, and soy lecithin to the melted cocoa butter. Stir until well combined.",
+    "Pour the chocolate mixture into a chocolate mold and sprinkle chopped nuts on top if desired.",
+    "Place the mold in the refrigerator and let it set for at least 2 hours.",
+    "Remove the chocolate bar from the mold and enjoy!"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 4.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 200.0,
+        "unit": "grams"
+      },
+      "ingredient": "cacao beans",
+      "singular": "cacao bean",
+      "store_cost": 5.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 150.0,
+        "unit": "grams"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 0.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "grams"
+      },
+      "ingredient": "cocoa butter",
+      "singular": "cocoa butter",
+      "store_cost": 2.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 0.05,
+        "unit": "cups"
+      },
+      "ingredient": "milk powder",
+      "singular": "milk powder",
+      "store_cost": 0.2,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.1,
+        "unit": "cups"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 1.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 0.02,
+        "unit": "cups"
+      },
+      "ingredient": "soy lecithin",
+      "singular": "soy lecithin",
+      "store_cost": 0.3,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 0.1,
+        "unit": "cups"
+      },
+      "ingredient": "chopped nuts",
+      "singular": "chopped nut",
+      "store_cost": 1.0,
+      "type": "plant"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "whole"
+      },
+      "ingredient": "chocolate bar",
+      "singular": "chocolate bar",
+      "store_cost": 2.5,
+      "type": "food"
+    }
+  ],
+  "recipe": "chocolate bar",
+  "recipe_plural": "chocolate bars",
+  "recipe_singular": "chocolate bar"
+}

@@ -1,0 +1,124 @@
+{
+  "directions": [
+    "Preheat the oven to 375\u00b0F (190\u00b0C).",
+    "In a small bowl, whisk together the flour, baking soda, and salt.",
+    "In a separate large bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy.",
+    "Beat in the vanilla extract and eggs until well combined.",
+    "Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
+    "Stir in the chocolate chips.",
+    "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+    "Bake for 9-11 minutes or until golden brown around the edges.",
+    "Allow the cookies to cool on the baking sheets for 5 minutes, then transfer them to wire racks to cool completely."
+  ],
+  "hours": {
+    "parallel": 0.25,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 0.4,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "baking soda",
+      "singular": "baking soda",
+      "store_cost": 0.05,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.03,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cups"
+      },
+      "ingredient": "unsalted butter",
+      "singular": "unsalted butter",
+      "store_cost": 0.75,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cups"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 0.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cups"
+      },
+      "ingredient": "brown sugar",
+      "singular": "brown sugar",
+      "store_cost": 0.5,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "teaspoons"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 0.1,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 2,
+        "unit": "whole"
+      },
+      "ingredient": "eggs",
+      "singular": "egg",
+      "store_cost": 0.4,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "chocolate chips",
+      "singular": "chocolate chip",
+      "store_cost": 1.5,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 24,
+        "unit": "whole"
+      },
+      "ingredient": "chocolate chip cookie",
+      "singular": "chocolate chip cookie",
+      "store_cost": 5.0,
+      "type": "food"
+    }
+  ],
+  "recipe": "chocolate chip cookie",
+  "recipe_plural": "chocolate chip cookies",
+  "recipe_singular": "chocolate chip cookie"
+}

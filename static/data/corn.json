@@ -1,0 +1,84 @@
+{
+  "directions": [
+    "Prepare the soil by tilling it and removing any weeds or rocks.",
+    "Plant the corn seeds in rows, leaving enough space between each seed.",
+    "Water the seeds immediately after planting, making sure the soil is moist.",
+    "Place the corn stalks in an area that receives full sunlight for at least 8 hours a day.",
+    "Water the corn regularly, aiming for about an inch of water per week.",
+    "Apply fertilizer to the soil once the corn reaches a height of about 6 inches.",
+    "Continue to water and care for the corn until the ears are fully developed and the husks turn brown.",
+    "Harvest the corn by pulling back the husks and picking the ears when they are fully mature.",
+    "Remove the silks and cook the corn by boiling, grilling, or steaming."
+  ],
+  "hours": {
+    "parallel": 1920.0,
+    "serial": 12.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "seeds",
+      "singular": "seed",
+      "store_cost": 2.0,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 4,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 10,
+        "unit": "cups"
+      },
+      "ingredient": "soil",
+      "singular": "soil",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 480.0,
+        "unit": "hours"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cups"
+      },
+      "ingredient": "fertilizer",
+      "singular": "fertilizer",
+      "store_cost": 2.5,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 4,
+        "unit": "whole"
+      },
+      "ingredient": "corn",
+      "singular": "ear of corn",
+      "store_cost": 1.0,
+      "type": "plant"
+    }
+  ],
+  "recipe": "corn",
+  "recipe_plural": "corn",
+  "recipe_singular": "corn"
+}

@@ -1,0 +1,81 @@
+{
+  "directions": [
+    "In a large bowl, beat the butter until creamy.",
+    "Gradually add the powdered sugar, cocoa powder, and milk to the bowl.",
+    "Continue beating until the frosting is smooth and fluffy.",
+    "If the frosting is too thick, add more milk. If it's too thin, add more powdered sugar.",
+    "Once the desired consistency is reached, beat in the vanilla extract.",
+    "Use the chocolate frosting to frost cakes, cupcakes, or any other dessert of your choice."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.25
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "butter",
+      "singular": "butter",
+      "store_cost": 0.5,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 3,
+        "unit": "cups"
+      },
+      "ingredient": "powdered sugar",
+      "singular": "powdered sugar",
+      "store_cost": 0.5,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 0.75,
+        "unit": "cup"
+      },
+      "ingredient": "cocoa powder",
+      "singular": "cocoa powder",
+      "store_cost": 0.8,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 3,
+        "unit": "tablespoons"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 0.1,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "teaspoon"
+      },
+      "ingredient": "vanilla extract",
+      "singular": "vanilla extract",
+      "store_cost": 0.2,
+      "type": "synthetic"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "chocolate frosting",
+      "singular": "chocolate frosting",
+      "store_cost": 2.5,
+      "type": "food"
+    }
+  ],
+  "recipe": "chocolate frosting",
+  "recipe_plural": "chocolate frostings",
+  "recipe_singular": "chocolate frosting"
+}

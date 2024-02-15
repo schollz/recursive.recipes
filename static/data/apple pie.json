@@ -1,0 +1,105 @@
+{
+  "directions": [
+    "Preheat the oven to 425\u00b0F (220\u00b0C).",
+    "In a large bowl, combine the apples, sugar, flour, cinnamon, and lemon juice. Mix well to coat the apples evenly.",
+    "Roll out one of the pie crusts and place it in a 9-inch pie dish.",
+    "Pour the apple mixture into the pie crust, spreading it out evenly.",
+    "Dot the top of the apples with small pieces of butter.",
+    "Roll out the second pie crust and place it on top of the apple filling.",
+    "Trim and crimp the edges of the pie crust to seal the pie.",
+    "Cut a few slits in the top crust to allow steam to escape while baking.",
+    "Bake the pie for 45-50 minutes or until the crust is golden brown and the apples are tender.",
+    "Remove the pie from the oven and let it cool for at least 1 hour before serving."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 2.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "whole"
+      },
+      "ingredient": "pie crust",
+      "singular": "pie crust",
+      "store_cost": 3.99,
+      "type": "food"
+    },
+    {
+      "amount": {
+        "count": 6,
+        "unit": "cups"
+      },
+      "ingredient": "apples",
+      "singular": "apple",
+      "store_cost": 4.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 1.5,
+        "unit": "cups"
+      },
+      "ingredient": "sugar",
+      "singular": "sugar",
+      "store_cost": 1.25,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 0.25,
+        "unit": "cups"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 0.15,
+      "type": "grain"
+    },
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "teaspoons"
+      },
+      "ingredient": "cinnamon",
+      "singular": "cinnamon",
+      "store_cost": 0.2,
+      "type": "spice"
+    },
+    {
+      "amount": {
+        "count": 2.0,
+        "unit": "tablespoons"
+      },
+      "ingredient": "lemon juice",
+      "singular": "lemon juice",
+      "store_cost": 0.15,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "cup"
+      },
+      "ingredient": "butter",
+      "singular": "butter",
+      "store_cost": 1.75,
+      "type": "animal"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1.0,
+        "unit": "whole"
+      },
+      "ingredient": "apple pie",
+      "singular": "apple pie",
+      "store_cost": 10.99,
+      "type": "food"
+    }
+  ],
+  "recipe": "apple pie",
+  "recipe_plural": "apple pies",
+  "recipe_singular": "apple pie"
+}

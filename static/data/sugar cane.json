@@ -1,0 +1,75 @@
+{
+  "directions": [
+    "Plant sugar cane plants in an appropriate climate and location.",
+    "Water the sugar cane plants regularly to ensure proper growth.",
+    "Allow the sugar cane plants to grow for approximately 9-12 months.",
+    "Harvest the sugar cane plants by cutting them at the base.",
+    "Remove the outer layer of the sugar cane stalks.",
+    "Extract the sweet juice from the sugar cane stalks using a press or juicer.",
+    "Boil the sugar cane juice to evaporate the water and concentrate the sugars.",
+    "Allow the concentrated sugar cane juice to cool and crystallize into raw sugar cane.",
+    "Further process the raw sugar cane into refined sugar by removing impurities and drying the crystals.",
+    "Package the refined sugar for storage and use in various recipes."
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 8760.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "sugar cane seeds",
+      "singular": "sugar cane seed",
+      "store_cost": 0,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "liters"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 365.0,
+        "unit": "days"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "sugar cane",
+      "singular": "sugar cane",
+      "store_cost": 0.5,
+      "type": "plants"
+    },
+    {
+      "amount": {
+        "count": 0.25,
+        "unit": "cups"
+      },
+      "ingredient": "granulated sugar",
+      "singular": "granulated sugar",
+      "store_cost": 0.25,
+      "type": "spice"
+    }
+  ],
+  "recipe": "sugar cane",
+  "recipe_plural": "sugar cane",
+  "recipe_singular": "sugar cane"
+}

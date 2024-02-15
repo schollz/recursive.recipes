@@ -1,0 +1,48 @@
+{
+  "directions": [
+    "Pour the wheat into the grain mill.",
+    "Operate the grain mill to grind the wheat into a fine powder.",
+    "Collect the resulting flour and store it in an airtight container for later use."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 2,
+        "unit": "cups"
+      },
+      "ingredient": "wheat",
+      "singular": "wheat",
+      "store_cost": 0.5,
+      "type": "plant"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "grain mill",
+      "singular": "grain mill",
+      "store_cost": 60.0,
+      "type": "synthetic"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 2.5,
+        "unit": "cups"
+      },
+      "ingredient": "flour",
+      "singular": "flour",
+      "store_cost": 1.25,
+      "type": "grain"
+    }
+  ],
+  "recipe": "all-purpose flour",
+  "recipe_plural": "all-purpose flour",
+  "recipe_singular": "all-purpose flour"
+}

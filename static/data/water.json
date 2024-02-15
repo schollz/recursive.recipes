@@ -1,0 +1,48 @@
+{
+  "directions": [
+    "Collect freshwater from a natural source, such as a spring or a well",
+    "Expose the freshwater to the sun for a day to allow any impurities to settle",
+    "Collect the clear water on top, which is now spring water"
+  ],
+  "hours": {
+    "parallel": 0.125,
+    "serial": 24.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "freshwater source",
+      "singular": "freshwater source",
+      "store_cost": 0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "day"
+      },
+      "ingredient": "sun",
+      "singular": "sun",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "water",
+      "singular": "water",
+      "store_cost": 0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "water",
+  "recipe_plural": "water",
+  "recipe_singular": "water"
+}

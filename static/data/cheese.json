@@ -1,0 +1,77 @@
+{
+  "directions": [
+    "Heat the milk in a large pot over low heat until it reaches a temperature of 32\u00b0C (90\u00b0F).",
+    "Add the rennet to the milk and stir gently for about 1 minute.",
+    "Let the milk sit undisturbed for 1 hour to allow it to coagulate into curds.",
+    "After 1 hour, cut the curds into small cubes.",
+    "Heat the curds over low heat, stirring gently, until they reach a temperature of 40\u00b0C (104\u00b0F).",
+    "Continue to heat the curds, stirring occasionally, for another 30 minutes.",
+    "Remove the pot from heat and let the curds rest for 5 minutes.",
+    "Line a cheese mold with cheesecloth and pour the curds into the mold, allowing the whey to drain.",
+    "Press the curds gently with a follower or weight to remove excess whey.",
+    "Let the cheese sit at room temperature for 12-24 hours, flipping it occasionally.",
+    "Remove the cheese from the mold, sprinkle salt evenly over the surface, and let it age in a cool place for 2-4 weeks.",
+    "Once the cheese has reached the desired age, it is ready to be enjoyed!"
+  ],
+  "hours": {
+    "parallel": 0.5,
+    "serial": 30
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 4,
+        "unit": "liters"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 3.0,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "teaspoon"
+      },
+      "ingredient": "rennet",
+      "singular": "rennet",
+      "store_cost": 1.5,
+      "type": "fungi"
+    },
+    {
+      "amount": {
+        "count": 0.125,
+        "unit": "cup"
+      },
+      "ingredient": "cheese culture",
+      "singular": "cheese culture",
+      "store_cost": 2.0,
+      "type": "fungi"
+    },
+    {
+      "amount": {
+        "count": 0.5,
+        "unit": "teaspoon"
+      },
+      "ingredient": "salt",
+      "singular": "salt",
+      "store_cost": 0.01,
+      "type": "spice"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 500.0,
+        "unit": "grams"
+      },
+      "ingredient": "cheese",
+      "singular": "cheese",
+      "store_cost": 4.0,
+      "type": "animal"
+    }
+  ],
+  "recipe": "cheese",
+  "recipe_plural": "cheese",
+  "recipe_singular": "cheese"
+}

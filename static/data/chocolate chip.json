@@ -1,0 +1,40 @@
+{
+  "directions": [
+    "Chop the chocolate bar into small pieces.",
+    "Melt the chopped chocolate in a microwave or using a double boiler, stirring occasionally until smooth.",
+    "Pour the melted chocolate onto a sheet of parchment paper or a silicone baking mat, spreading it out into a thin layer.",
+    "Allow the chocolate to cool and harden completely.",
+    "Once hardened, break the chocolate into small, irregularly shaped pieces to create chocolate chips."
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.5
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chocolate bar",
+      "singular": "chocolate bar",
+      "store_cost": 2.0,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cups"
+      },
+      "ingredient": "chocolate chips",
+      "singular": "chocolate chip",
+      "store_cost": 3.0,
+      "type": "natural"
+    }
+  ],
+  "recipe": "chocolate chip",
+  "recipe_plural": "chocolate chips",
+  "recipe_singular": "chocolate chip"
+}

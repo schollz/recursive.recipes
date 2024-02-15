@@ -1,0 +1,98 @@
+{
+  "directions": [
+    "Start by designing the chicken coop structure.",
+    "Cut the wood boards into appropriate sizes for the coop walls, roof, and floor.",
+    "Assemble the wooden frame of the chicken coop using nails and screws.",
+    "Attach the wire mesh to the sides of the coop to provide ventilation.",
+    "Cover the coop with chicken wire to protect the chickens from predators.",
+    "Paint the coop with weather-resistant paint for durability.",
+    "Install a door for easy access and a ramp for the chickens to enter and exit the coop.",
+    "Ensure the coop is securely built and free from any sharp edges or hazards.",
+    "Place the chicken coop in a suitable location in your backyard.",
+    "Add bedding materials and food bowls inside the coop for the chickens.",
+    "Introduce chickens to their new coop and monitor their safety and well-being.",
+    "Regularly clean and maintain the chicken coop to ensure a healthy living environment.",
+    "Enjoy the rewards of having your own chicken coop for fresh eggs and the joy of raising chickens!"
+  ],
+  "hours": {
+    "parallel": 20.0,
+    "serial": 10.0
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 100.0,
+        "unit": "boards"
+      },
+      "ingredient": "wood",
+      "singular": "wood",
+      "store_cost": 200.0,
+      "type": "natural"
+    },
+    {
+      "amount": {
+        "count": 1000.0,
+        "unit": "pieces"
+      },
+      "ingredient": "nails",
+      "singular": "nail",
+      "store_cost": 10.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "rolls"
+      },
+      "ingredient": "wire mesh",
+      "singular": "wire mesh",
+      "store_cost": 150.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 500.0,
+        "unit": "pieces"
+      },
+      "ingredient": "screws",
+      "singular": "screw",
+      "store_cost": 20.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 10.0,
+        "unit": "gallons"
+      },
+      "ingredient": "paint",
+      "singular": "paint",
+      "store_cost": 100.0,
+      "type": "synthetic"
+    },
+    {
+      "amount": {
+        "count": 5.0,
+        "unit": "rolls"
+      },
+      "ingredient": "chicken wire",
+      "singular": "chicken wire",
+      "store_cost": 50.0,
+      "type": "synthetic"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "whole"
+      },
+      "ingredient": "chicken coop",
+      "singular": "chicken coop",
+      "store_cost": 500.0,
+      "type": "synthetic"
+    }
+  ],
+  "recipe": "chicken coop",
+  "recipe_plural": "chicken coops",
+  "recipe_singular": "chicken coop"
+}

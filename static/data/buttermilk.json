@@ -1,0 +1,50 @@
+{
+  "directions": [
+    "Pour the milk into a measuring cup.",
+    "Add the lemon juice or vinegar to the milk.",
+    "Stir to combine.",
+    "Let the mixture sit for 5-10 minutes.",
+    "Your homemade buttermilk is now ready to use!"
+  ],
+  "hours": {
+    "parallel": 0,
+    "serial": 0.01
+  },
+  "input": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "milk",
+      "singular": "milk",
+      "store_cost": 0.15,
+      "type": "animal"
+    },
+    {
+      "amount": {
+        "count": 1,
+        "unit": "tablespoon"
+      },
+      "ingredient": "lemon juice or vinegar",
+      "singular": "lemon juice or vinegar",
+      "store_cost": 0.05,
+      "type": "natural"
+    }
+  ],
+  "output": [
+    {
+      "amount": {
+        "count": 1,
+        "unit": "cup"
+      },
+      "ingredient": "buttermilk",
+      "singular": "buttermilk",
+      "store_cost": 1.5,
+      "type": "dairy"
+    }
+  ],
+  "recipe": "buttermilk",
+  "recipe_plural": "buttermilk",
+  "recipe_singular": "buttermilk"
+}
